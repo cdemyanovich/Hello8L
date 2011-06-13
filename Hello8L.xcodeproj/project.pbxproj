@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59A51FC113A5A97900730305 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A51FC013A5A97900730305 /* UIKit.framework */; };
+		59A51FC313A5A97900730305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A51FC213A5A97900730305 /* Foundation.framework */; };
+		59A51FC513A5A97900730305 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A51FC413A5A97900730305 /* CoreGraphics.framework */; };
+		59A51FCB13A5A97900730305 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59A51FC913A5A97900730305 /* InfoPlist.strings */; };
+		59A51FCE13A5A97900730305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A51FCD13A5A97900730305 /* main.m */; };
+		59A51FD113A5A97900730305 /* Hello8LAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A51FD013A5A97900730305 /* Hello8LAppDelegate.m */; };
+		59A51FD413A5A97900730305 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59A51FD213A5A97900730305 /* MainWindow.xib */; };
+		59A51FD713A5A97900730305 /* Hello8LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A51FD613A5A97900730305 /* Hello8LViewController.m */; };
+		59A51FDA13A5A97900730305 /* Hello8LViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59A51FD813A5A97900730305 /* Hello8LViewController.xib */; };
+		59A51FE113A5A97900730305 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A51FC013A5A97900730305 /* UIKit.framework */; };
+		59A51FE213A5A97900730305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A51FC213A5A97900730305 /* Foundation.framework */; };
+		59A51FE313A5A97900730305 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A51FC413A5A97900730305 /* CoreGraphics.framework */; };
+		59A51FEB13A5A97900730305 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59A51FE913A5A97900730305 /* InfoPlist.strings */; };
+		59A51FEE13A5A97900730305 /* Hello8LTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 59A51FED13A5A97900730305 /* Hello8LTests.h */; };
+		59A51FF013A5A97900730305 /* Hello8LTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A51FEF13A5A97900730305 /* Hello8LTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59A51FE413A5A97900730305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59A51FB313A5A97800730305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A51FBB13A5A97900730305;
+			remoteInfo = Hello8L;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59A51FBC13A5A97900730305 /* Hello8L.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello8L.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A51FC013A5A97900730305 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59A51FC213A5A97900730305 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59A51FC413A5A97900730305 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59A51FC813A5A97900730305 /* Hello8L-Info.plist */ = {isa = PBXFileReference; path = "Hello8L-Info.plist"; sourceTree = "<group>"; };
+		59A51FCA13A5A97900730305 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59A51FCC13A5A97900730305 /* Hello8L-Prefix.pch */ = {isa = PBXFileReference; path = "Hello8L-Prefix.pch"; sourceTree = "<group>"; };
+		59A51FCD13A5A97900730305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59A51FCF13A5A97900730305 /* Hello8LAppDelegate.h */ = {isa = PBXFileReference; path = Hello8LAppDelegate.h; sourceTree = "<group>"; };
+		59A51FD013A5A97900730305 /* Hello8LAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello8LAppDelegate.m; sourceTree = "<group>"; };
+		59A51FD313A5A97900730305 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		59A51FD513A5A97900730305 /* Hello8LViewController.h */ = {isa = PBXFileReference; path = Hello8LViewController.h; sourceTree = "<group>"; };
+		59A51FD613A5A97900730305 /* Hello8LViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello8LViewController.m; sourceTree = "<group>"; };
+		59A51FD913A5A97900730305 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Hello8LViewController.xib; sourceTree = "<group>"; };
+		59A51FE013A5A97900730305 /* Hello8LTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hello8LTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A51FE813A5A97900730305 /* Hello8LTests-Info.plist */ = {isa = PBXFileReference; path = "Hello8LTests-Info.plist"; sourceTree = "<group>"; };
+		59A51FEA13A5A97900730305 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59A51FEC13A5A97900730305 /* Hello8LTests-Prefix.pch */ = {isa = PBXFileReference; path = "Hello8LTests-Prefix.pch"; sourceTree = "<group>"; };
+		59A51FED13A5A97900730305 /* Hello8LTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello8LTests.h; sourceTree = "<group>"; };
+		59A51FEF13A5A97900730305 /* Hello8LTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello8LTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59A51FB913A5A97900730305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A51FC113A5A97900730305 /* UIKit.framework in Frameworks */,
+				59A51FC313A5A97900730305 /* Foundation.framework in Frameworks */,
+				59A51FC513A5A97900730305 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A51FDC13A5A97900730305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A51FE113A5A97900730305 /* UIKit.framework in Frameworks */,
+				59A51FE213A5A97900730305 /* Foundation.framework in Frameworks */,
+				59A51FE313A5A97900730305 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A51FB113A5A97800730305 = {
+			isa = PBXGroup;
+			children = (
+				59A51FC613A5A97900730305 /* Hello8L */,
+				59A51FE613A5A97900730305 /* Hello8LTests */,
+				59A51FBF13A5A97900730305 /* Frameworks */,
+				59A51FBD13A5A97900730305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59A51FBD13A5A97900730305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59A51FBC13A5A97900730305 /* Hello8L.app */,
+				59A51FE013A5A97900730305 /* Hello8LTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59A51FBF13A5A97900730305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A51FC013A5A97900730305 /* UIKit.framework */,
+				59A51FC213A5A97900730305 /* Foundation.framework */,
+				59A51FC413A5A97900730305 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59A51FC613A5A97900730305 /* Hello8L */ = {
+			isa = PBXGroup;
+			children = (
+				59A51FCF13A5A97900730305 /* Hello8LAppDelegate.h */,
+				59A51FD013A5A97900730305 /* Hello8LAppDelegate.m */,
+				59A51FD213A5A97900730305 /* MainWindow.xib */,
+				59A51FD513A5A97900730305 /* Hello8LViewController.h */,
+				59A51FD613A5A97900730305 /* Hello8LViewController.m */,
+				59A51FD813A5A97900730305 /* Hello8LViewController.xib */,
+				59A51FC713A5A97900730305 /* Supporting Files */,
+			);
+			path = Hello8L;
+			sourceTree = "<group>";
+		};
+		59A51FC713A5A97900730305 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59A51FC813A5A97900730305 /* Hello8L-Info.plist */,
+				59A51FC913A5A97900730305 /* InfoPlist.strings */,
+				59A51FCC13A5A97900730305 /* Hello8L-Prefix.pch */,
+				59A51FCD13A5A97900730305 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59A51FE613A5A97900730305 /* Hello8LTests */ = {
+			isa = PBXGroup;
+			children = (
+				59A51FED13A5A97900730305 /* Hello8LTests.h */,
+				59A51FEF13A5A97900730305 /* Hello8LTests.m */,
+				59A51FE713A5A97900730305 /* Supporting Files */,
+			);
+			path = Hello8LTests;
+			sourceTree = "<group>";
+		};
+		59A51FE713A5A97900730305 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59A51FE813A5A97900730305 /* Hello8LTests-Info.plist */,
+				59A51FE913A5A97900730305 /* InfoPlist.strings */,
+				59A51FEC13A5A97900730305 /* Hello8LTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59A51FBB13A5A97900730305 /* Hello8L */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A51FF313A5A97900730305 /* Build configuration list for PBXNativeTarget "Hello8L" */;
+			buildPhases = (
+				59A51FB813A5A97900730305 /* Sources */,
+				59A51FB913A5A97900730305 /* Frameworks */,
+				59A51FBA13A5A97900730305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hello8L;
+			productName = Hello8L;
+			productReference = 59A51FBC13A5A97900730305 /* Hello8L.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59A51FDF13A5A97900730305 /* Hello8LTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A51FF613A5A97900730305 /* Build configuration list for PBXNativeTarget "Hello8LTests" */;
+			buildPhases = (
+				59A51FDB13A5A97900730305 /* Sources */,
+				59A51FDC13A5A97900730305 /* Frameworks */,
+				59A51FDD13A5A97900730305 /* Resources */,
+				59A51FDE13A5A97900730305 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A51FE513A5A97900730305 /* PBXTargetDependency */,
+			);
+			name = Hello8LTests;
+			productName = Hello8LTests;
+			productReference = 59A51FE013A5A97900730305 /* Hello8LTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59A51FB313A5A97800730305 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 59A51FB613A5A97800730305 /* Build configuration list for PBXProject "Hello8L" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59A51FB113A5A97800730305;
+			productRefGroup = 59A51FBD13A5A97900730305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59A51FBB13A5A97900730305 /* Hello8L */,
+				59A51FDF13A5A97900730305 /* Hello8LTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59A51FBA13A5A97900730305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A51FCB13A5A97900730305 /* InfoPlist.strings in Resources */,
+				59A51FD413A5A97900730305 /* MainWindow.xib in Resources */,
+				59A51FDA13A5A97900730305 /* Hello8LViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A51FDD13A5A97900730305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A51FEB13A5A97900730305 /* InfoPlist.strings in Resources */,
+				59A51FEE13A5A97900730305 /* Hello8LTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59A51FDE13A5A97900730305 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59A51FB813A5A97900730305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A51FCE13A5A97900730305 /* main.m in Sources */,
+				59A51FD113A5A97900730305 /* Hello8LAppDelegate.m in Sources */,
+				59A51FD713A5A97900730305 /* Hello8LViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A51FDB13A5A97900730305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A51FF013A5A97900730305 /* Hello8LTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59A51FE513A5A97900730305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A51FBB13A5A97900730305 /* Hello8L */;
+			targetProxy = 59A51FE413A5A97900730305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59A51FC913A5A97900730305 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A51FCA13A5A97900730305 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59A51FD213A5A97900730305 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A51FD313A5A97900730305 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		59A51FD813A5A97900730305 /* Hello8LViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A51FD913A5A97900730305 /* en */,
+			);
+			name = Hello8LViewController.xib;
+			sourceTree = "<group>";
+		};
+		59A51FE913A5A97900730305 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A51FEA13A5A97900730305 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59A51FF113A5A97900730305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59A51FF213A5A97900730305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		59A51FF413A5A97900730305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello8L/Hello8L-Prefix.pch";
+				INFOPLIST_FILE = "Hello8L/Hello8L-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59A51FF513A5A97900730305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello8L/Hello8L-Prefix.pch";
+				INFOPLIST_FILE = "Hello8L/Hello8L-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		59A51FF713A5A97900730305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hello8L.app/Hello8L";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello8LTests/Hello8LTests-Prefix.pch";
+				INFOPLIST_FILE = "Hello8LTests/Hello8LTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		59A51FF813A5A97900730305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hello8L.app/Hello8L";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hello8LTests/Hello8LTests-Prefix.pch";
+				INFOPLIST_FILE = "Hello8LTests/Hello8LTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59A51FB613A5A97800730305 /* Build configuration list for PBXProject "Hello8L" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A51FF113A5A97900730305 /* Debug */,
+				59A51FF213A5A97900730305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A51FF313A5A97900730305 /* Build configuration list for PBXNativeTarget "Hello8L" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A51FF413A5A97900730305 /* Debug */,
+				59A51FF513A5A97900730305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59A51FF613A5A97900730305 /* Build configuration list for PBXNativeTarget "Hello8LTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A51FF713A5A97900730305 /* Debug */,
+				59A51FF813A5A97900730305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59A51FB313A5A97800730305 /* Project object */;
+}
