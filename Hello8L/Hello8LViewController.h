@@ -9,7 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface Hello8LViewController : UIViewController {
-    
+    UITextField *guestName;
+    UIButton *greetButton;
+    UILabel *welcomeLabel;
 }
 
+@property (nonatomic, retain) IBOutlet UITextField *guestName;
+@property (nonatomic, retain) IBOutlet UIButton *greetButton;
+@property (nonatomic, retain) IBOutlet UILabel *welcomeLabel;
+
+- (IBAction)greetButtonPressed:(id)sender;
+- (IBAction)guestNameDoneEditing:(id)sender;
 @end

@@ -22,6 +22,7 @@
 		59A51FEB13A5A97900730305 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59A51FE913A5A97900730305 /* InfoPlist.strings */; };
 		59A51FEE13A5A97900730305 /* Hello8LTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 59A51FED13A5A97900730305 /* Hello8LTests.h */; };
 		59A51FF013A5A97900730305 /* Hello8LTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A51FEF13A5A97900730305 /* Hello8LTests.m */; };
+		59A5200A13A5B0D200730305 /* bg-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 59A5200913A5B0D200730305 /* bg-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +40,23 @@
 		59A51FC013A5A97900730305 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59A51FC213A5A97900730305 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59A51FC413A5A97900730305 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		59A51FC813A5A97900730305 /* Hello8L-Info.plist */ = {isa = PBXFileReference; path = "Hello8L-Info.plist"; sourceTree = "<group>"; };
+		59A51FC813A5A97900730305 /* Hello8L-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello8L-Info.plist"; sourceTree = "<group>"; };
 		59A51FCA13A5A97900730305 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		59A51FCC13A5A97900730305 /* Hello8L-Prefix.pch */ = {isa = PBXFileReference; path = "Hello8L-Prefix.pch"; sourceTree = "<group>"; };
+		59A51FCC13A5A97900730305 /* Hello8L-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello8L-Prefix.pch"; sourceTree = "<group>"; };
 		59A51FCD13A5A97900730305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59A51FCF13A5A97900730305 /* Hello8LAppDelegate.h */ = {isa = PBXFileReference; path = Hello8LAppDelegate.h; sourceTree = "<group>"; };
+		59A51FCF13A5A97900730305 /* Hello8LAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello8LAppDelegate.h; sourceTree = "<group>"; };
 		59A51FD013A5A97900730305 /* Hello8LAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello8LAppDelegate.m; sourceTree = "<group>"; };
 		59A51FD313A5A97900730305 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		59A51FD513A5A97900730305 /* Hello8LViewController.h */ = {isa = PBXFileReference; path = Hello8LViewController.h; sourceTree = "<group>"; };
+		59A51FD513A5A97900730305 /* Hello8LViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello8LViewController.h; sourceTree = "<group>"; };
 		59A51FD613A5A97900730305 /* Hello8LViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello8LViewController.m; sourceTree = "<group>"; };
 		59A51FD913A5A97900730305 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Hello8LViewController.xib; sourceTree = "<group>"; };
 		59A51FE013A5A97900730305 /* Hello8LTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hello8LTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		59A51FE813A5A97900730305 /* Hello8LTests-Info.plist */ = {isa = PBXFileReference; path = "Hello8LTests-Info.plist"; sourceTree = "<group>"; };
+		59A51FE813A5A97900730305 /* Hello8LTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello8LTests-Info.plist"; sourceTree = "<group>"; };
 		59A51FEA13A5A97900730305 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		59A51FEC13A5A97900730305 /* Hello8LTests-Prefix.pch */ = {isa = PBXFileReference; path = "Hello8LTests-Prefix.pch"; sourceTree = "<group>"; };
+		59A51FEC13A5A97900730305 /* Hello8LTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello8LTests-Prefix.pch"; sourceTree = "<group>"; };
 		59A51FED13A5A97900730305 /* Hello8LTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello8LTests.h; sourceTree = "<group>"; };
 		59A51FEF13A5A97900730305 /* Hello8LTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello8LTests.m; sourceTree = "<group>"; };
+		59A5200913A5B0D200730305 /* bg-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		59A51FB113A5A97800730305 = {
 			isa = PBXGroup;
 			children = (
+				59A5200913A5B0D200730305 /* bg-logo.png */,
 				59A51FC613A5A97900730305 /* Hello8L */,
 				59A51FE613A5A97900730305 /* Hello8LTests */,
 				59A51FBF13A5A97900730305 /* Frameworks */,
@@ -225,6 +228,7 @@
 				59A51FCB13A5A97900730305 /* InfoPlist.strings in Resources */,
 				59A51FD413A5A97900730305 /* MainWindow.xib in Resources */,
 				59A51FDA13A5A97900730305 /* Hello8LViewController.xib in Resources */,
+				59A5200A13A5B0D200730305 /* bg-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +447,7 @@
 				59A51FF513A5A97900730305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59A51FF613A5A97900730305 /* Build configuration list for PBXNativeTarget "Hello8LTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +456,7 @@
 				59A51FF813A5A97900730305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

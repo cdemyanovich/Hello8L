@@ -10,8 +10,25 @@
 
 @implementation Hello8LViewController
 
+@synthesize guestName, greetButton, welcomeLabel;
+
+- (IBAction)greetButtonPressed:(id)sender
+{
+    [guestName resignFirstResponder];
+    welcomeLabel.text = [[NSString alloc] initWithFormat:@"Welcome to 8th Light, %@!", guestName.text];
+    welcomeLabel.hidden = NO;
+}
+
+- (IBAction)guestNameDoneEditing:(id)sender
+{
+    [sender resignFirstResponder];
+}
+
 - (void)dealloc
 {
+    [guestName release];
+    [greetButton release];
+    [welcomeLabel release];
     [super dealloc];
 }
 
